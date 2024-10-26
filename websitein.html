@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DenDen Laundry Shoppe Page</title>
+    
+</head>
+<body>
+    <!-- Home Page    -->
+    <section id="main">
+        <div class="main container">
+            <div>
+                <h1>Welcome to DenDen Laundry Shoppe <span></span></h1>
+                <p>This is the home page for DenDen Laundry Shoppe <span></span></p>
+                <p>What would you like to do? <span></span></p>
+                <nav>
+                <a href="#track" type="button" class="navmain">Track Laundry <span></span></a>
+                <a href="#about" type="button" class="navmain">About Us</a>
+                <a href="#contact" type="button" class="navmain">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- End Home  -->
+
+    <!-- Track Order -->
+    <section id="track">
+        <div class="track container">
+            <div class="track-table">
+                <table id="userDetails">
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Laundry Status</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="track-top">
+                <h1 class="track-title">Track Order!</h1>
+                <button id="buttonOut">SIGNOUT</button>
+            </div> 
+        </div>
+    </section>
+    <!-- End of Track Order -->
+
+    <!-- About us -->
+    <section id="about">
+        <div class="about container">
+            <div class="about-top">
+                <h1 class="about title">About us!</h1>
+                <p>Founded on 2012, DenDen Laundry Shoppe is a 
+                    full-service laundry <br>located at Dona Seguna Building.
+                    Ponciano. Wherein the establishment <br>washes, dries,
+                    and folds the clothes dropped off by the customers.
+                    <br>The laundry shoppe normally caters to students and 
+                    employees living near schools and offices. </p>
+            </div>
+            <div class="about-img-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.4669752661004!2d125.6106598213905!3d7.071191149955002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d6a671f05c5%3A0x4c3b227dafab2d48!2sDona%20Segunda%20Complex!5e0!3m2!1sen!2sph!4v1709721618323!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            
+        </div>
+    </section>
+    <!-- End of About us -->
+
+    <!-- Contact us (add interactive map) -->
+    <section id="contact">
+            <div class="contact-top">
+                <h1 class="contact title">Contact us!</h1>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="box">
+                        <div class="icon"><i class="fas fa-map-pin"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>C.M. Recto, Dona Segunda Bldg., <br> Davao City, <br>8000</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>#63 101 101 1010</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>EMAIL@EMAIL.COM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="contact-form">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type your message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- End of Contact us -->
+
+    <script src="script2.js"></script>
+</body>
+</html>
